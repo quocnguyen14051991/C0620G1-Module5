@@ -1,0 +1,15 @@
+<h3>Edit Info</h3>
+<div class="form">
+  <div class="col">
+    <label>Id Customer</label> <br>
+    <input (change)="edit($event.target.value)"  type="text" [value]="cus.id">
+  </div>
+  <div class="col">
+    <label>Name</label> <br>
+    <input type="text" [value]="cus.name">
+  </div>
+  <div class="col">
+    <label>Age</label> <br>
+    <input type="text" [value]="cus.age">
+  </div>
+</div>

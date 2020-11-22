@@ -1,0 +1,7 @@
+<app-list-customer [listCus] = "listCustomer" (onDeleteCustomer)="deleteCustomer($event)" (onDetailCustomer)="detailCus($event)" (onEditCustomer)="editCustomer($event)"></app-list-customer>
+<div class="row">
+  <div class="col-6"><app-detail-customer  [cus]="customerDetail"></app-detail-customer></div>
+  <div class="col-6"><app-edit-component [cus]="customerEdit" (onEditRow)=" editRow($event)"> </app-edit-component></div>
+</div>
+
+

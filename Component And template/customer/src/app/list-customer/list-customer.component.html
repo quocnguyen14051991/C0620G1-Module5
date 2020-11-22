@@ -1,0 +1,23 @@
+<h1>List Customer</h1>
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">Id</th>
+    <th scope="col">Name</th>
+    <th scope="col">Age</th>
+    <th scope="col">Action</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let cus of listCus">
+    <td>{{cus.get_id()}}</td>
+    <td>{{cus.get_name()}}</td>
+    <td>{{cus.get_age()}}</td>
+    <td>
+      <button (click)="deleteCustomer(cus.get_id())"  class="btn btn-danger">Delete</button>
+      <button style="margin-left: 5px" (click)="detailCustomer(cus.get_id())" class="btn btn-info">Detail</button>
+      <button style="margin-left: 5px" class="btn btn-warning" (click)="editCustomer(cus.get_id())">Edit</button>
+    </td>
+  </tr>
+  </tbody>
+</table>

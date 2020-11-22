@@ -1,0 +1,28 @@
+npm install -g @angular/cli@latest -- cài đặt angular
+ng --version -- kiểm tra phiên bản angular
+ng new HotelProject -- tạo dự án mới với angular
+ng serve -- Chạy dự án angular bằng lệnh ng serve
+ng serve -o -- angular biên dịch và mở trình duyệt lên tự động bằng câu lệnh
+ng serve --port 9001 -- thêm port
+npm install bootstrap --save       -->install boostrap
+ng s --o --open ứng dụng
+ng g c ten_component -- tạo mới 1 component
+Angular sẽ load file index.html
+npm install –save bootstrap jquery ==
+Angular tiếp tục nạp các thư viện và các thư viện bên thứ 3 vào
+Angular sẽ load file main.ts
+Trong file main.ts Angular sẽ load module cha là app.modules.ts
+@import "~bootstrap/dist/css/bootstrap.css"; nhúng boostrap vao file css
+Trong app.modules.ts ta load lên module cha component (root) hay còn gọi là root component. Trong dự án Angular ta sẽ có nhiều component. Mỗi component là 1 phần của view hiểu thị cho người dùng
+Trong module component sẽ có các file html,css (view) lúc đó sẽ hiển thị trang web cho người dùng
+Biding dữ liệu :
+1 way
++ property binding để truyền dữ liệu từ file ts lên view sữ dụng dấu ngoặc vuông 
+[avriable]=[object.property]. mục đích biding 1 giá trị nào đó của file class businic lên thành 1 thuộc tính trong thẻ html. hoặc sử dụng cặp thẻ {{property của object}} interperlacetion
++event binding :binding sự kiện tức là khi phát sinh ra 1 sự kiện chúng ta sẻ lấy 1 giá trị từ file giao diện
+html đưa giá trị đó xuống file component.ts
+2 way
+[(ngModel)]="value"
+
+
+
