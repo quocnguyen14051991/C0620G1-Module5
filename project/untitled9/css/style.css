@@ -1,0 +1,83 @@
+
+.avatar img {
+    border-radius: 50%;
+}
+body{
+    background:#e9ecf3;
+}
+.btn-orange{
+    background-color: orange;
+    width: 130px;
+}
+.btn-orange-add{
+    text-align: center;
+    background-color: orange;
+    width: 150px;
+    padding: 5px;
+}
+table.table td a.delete {
+    color: #F44336;
+}
+table.table td a.edit {
+    color: #FFC107;
+}
+table.table td i {
+    /*font-size: 19px;*/
+}
+.pagination {
+    float: right;
+    margin: 0 0 5px;
+}
+.pagination li a {
+    border: none;
+    font-size: 13px;
+    min-width: 30px;
+    min-height: 30px;
+    color: #999;
+    margin: 0 2px;
+    line-height: 30px;
+    border-radius: 2px !important;
+    text-align: center;
+    padding: 0 6px;
+}
+.pagination li a:hover {
+    color: #666;
+}
+.pagination li.active a, .pagination li.active a.page-link {
+    background: #03A9F4;
+}
+.pagination li.active a:hover {
+    background: #0397d6;
+}
+.pagination li.disabled i {
+    color: #ccc;
+}
+.pagination li i {
+    font-size: 16px;
+    padding-top: 6px
+}
+.hint-text {
+    float: left;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.title-customer h3,h4{
+    text-align: center;
+}
+/*.clearFix{*/
+/*    margin-right: 0px;*/
+/*}*/
+/* Modal styles */
+
+/*.flex-content {*/
+/*    display: -webkit-box;*/
+/*    display: -moz-box;*/
+/*    display: -ms-flexbox;*/
+/*    display: -moz-flex;*/
+/*    display: -webkit-flex;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    width: 100%;*/
+/*    vertical-align: top;*/
+/*    overflow: hidden;*/
+/*}*/
